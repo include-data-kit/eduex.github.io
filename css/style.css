@@ -1,27 +1,27 @@
 @font-face {
 	font-family: "Montserrat";
 	font-style: normal;
-	src: url(include-data-kit.github.io/eduex.github.io/fonts/Montserrat-Bold.ttf);
+	src: url(fonts/Montserrat-Bold.ttf);
 }
 @font-face {
 	font-family: "Exo2-Bold";
 	font-style: normal;
-	src: url(include-data-kit.github.io/eduex.github.io/fonts/Exo2-Bold.ttf);
+	src: url(fonts/Exo2-Bold.ttf);
 }
 @font-face {
 	font-family: "Exo2-Regular";
 	font-style: normal;
-	src: url(include-data-kit.github.io/eduex.github.io/fonts/Exo2-Regular.ttf);
+	src: url(fonts/Exo2-Regular.ttf);
 }
 @font-face {
 	font-family: "Roboto-Bold";
 	font-style: normal;
-	src: url(include-data-kit.github.io/eduex.github.io/fonts/Roboto-Bold.ttf);
+	src: url(fonts/Roboto-Bold.ttf);
 }
 @font-face {
 	font-family: "Roboto-Regular";
 	font-style: normal;
-	src: url(include-data-kit.github.io/eduex.github.io/fonts/Roboto-Regular.ttf);
+	src: url(fonts/Roboto-Regular.ttf);
 }
 body {
 	margin: 0;

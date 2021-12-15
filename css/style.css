@@ -261,7 +261,7 @@ nav .menu li:last-child {
 	width: 1370px;
 	height: 256px;
 	background: #1C1C1C;
-	background-image:linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/eduex.github.io//img/bg_download.png);
+	background-image:linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(include-data-kit.github.io/eduex.github.io/img/bg_download.png);
   	background-repeat: no-repeat;
   	background-size: cover;
 	color: #46EBC2;

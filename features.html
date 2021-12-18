@@ -4,145 +4,237 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style-test.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Blender -</title>
 </head>
 <body>
     <div class="main-body">
         <!--Шапка-->
         <header>
             <div class="logo">
-                <a href="/index.htm"><img src="/img/logo.png" alt="logo blender"></a>
+                <a href="./index.html">
+                    <img src="./img/logo.png">
+                </a>
             </div>
             <nav>
                 <ul class="menu">
-                    <li><a href="/features.htm">Возможности</a></li>
-                    <li><a href="/lessons.htm">Уроки</a></li>
-                    <li><a href="/about.htm">О нас</a></li>
-                    <li><a href="/arts.htm">Поддержка</a></li>
-                    <li><a href="/support.htm">Работы</a></li>
-                    <li><a href="/download.htm">Загрузить</a></li>
+                    <li><a href="./features.html">Возможности</a></li>
+                    <li><a href="./lessons.html">Уроки</a></li>
+                    <li><a href="./about.html">О нас</a></li>
+                    <li><a href="./arts.html">Галерея</a></li>
+                    <li><a href="./support.html">Поддержка</a></li>
+                    <li><a href="./download.html">Скачать</a></li>   
                 </ul>
             </nav>
         </header>
-
-        <table>
-            <td>
-                <div class="contain-news-post-block">
-                    <div class="contain-news-post-block-img"></div>
-                    <h3>Call for videos, “BLENDER IS…”</h3>
-                    <p>The theme for this year is to celebrate the wonderful diversity of Blender’s ecosystem. Blender is so much more than just a 3D tool!</p>
+        <div class="line"></div>
+        <!--Возможности-->
+        <div class="contain-features-page">
+            <!--1 строка-->
+                <!--1 блок-->
+            <div class="contain-features-page-block">
+                <div class="contain-features-page-block-header">
+                    <h2>Рендеринг</h2>
+                </div>
+                <div class="contain-features-page-block-content">
                     <p>
-                        <a href="" class="contain-news-post-block-link">READ MORE</a>
+                        Blender comes with a powerful unbiased rendering engine that offers stunning ultra-realistic rendering.
+                        Cycles is Blender’s ray-trace based production render engine.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Unidirectional path tracing with multiple importance sampling</li>
+                            <li>Multi-core CPU rendering with SIMD acceleration</li>
+                            <li>GPU rendering with NVidia CUDA & AMD OpenCL</li>
+                            <li>Multi-GPU support</li>
+                            <li>Unified rendering kernel for CPU and GPU</li>
+                        </ul>
                     </p>
                 </div>
-            </td>
-            <!--2 пост-->
-            <td>
-                <div class="contain-news-post-block">
-                    <div class="contain-news-post-block-img"></div>
-                    <h3>Apple joins Blender Development Fund</h3>
-                    <p>Apple has joined the Blender Development Fund as a Patron Member to support continued core development for Blender.</p>
+            </div>
+                <!--2 блок-->
+                <div class="contain-features-page-block">
+                    <div class="contain-features-page-block-header">
+                        <h2>Моделлирование</h2>       
+                    </div>
+                    <div class="contain-features-page-block-content">
+                        <p>
+                            Blender’s comprehensive array of modeling tools make creating, transforming, sculpting and editing your models a breeze.
+                        </p>
+                        <p>
+                            Blender's modeling tools include:
+                            <ul>
+                                <li>Keyboard shortcuts for a fast workflow</li>
+                                <li>N-Gon support</li>
+                                <li>Edge slide, collapse and dissolve</li>
+                                <li>Grid and Bridge fill</li>
+                                <li>Python scripting for custom tools and add-ons</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            
+            <!--2 строка-->
+                <!--1 блок-->
+                <div class="contain-features-page-block">
+                    <div class="contain-features-page-block-header">
+                        <h2>Скульптинг</h2>
+                    </div>
+                    <div class="contain-features-page-block-content">
+                        <p>
+                            Digital sculpting tools provide the power and flexibility required in several stages of the digital production pipeline. For example, during character design and exploration or environment design.
+                        </p>
+                        <p>
+                            Sculpting in Blender includes:
+                            <ul>
+                                <li>20 different brush types</li>
+                                <li>Multi-res sculpting support</li>
+                                <li>Dynamic Topology sculpting</li>
+                                <li>Mirrored sculpting</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                    <!--2 блок-->
+                    <div class="contain-features-page-block">
+                        <div class="contain-features-page-block-header">
+                            <h2>Анимация</h2>
+                        </div>
+                        <div class="contain-features-page-block-content">
+                            <p>Whether it’s simple keyframing or complex walk-cycles, Blender allows artists to turn their still characters into impressive animations.</p>
+                            <p>
+                                Blender's animation feature set offers:
+                                <ul>
+                                    <li>Character animation pose editor</li>
+                                    <li>Non Linear Animation (NLA) for independent movements</li>
+                                    <li>Forward/inverse kinematics for fast poses</li>
+                                    <li>Sound synchronization</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+            <!--3 строка-->
+                <!--1 блок-->
+                <div class="contain-features-page-block">
+                    <div class="contain-features-page-block-header">
+                        <h2>Grease Pensil</h2>
+                    </div>
+                    <div class="contain-features-page-block-content">
+                        <p>Really! Drawing directly in a 3D viewport makes a lot of sense. It opens unsurpassed workflow freedom for story-boarders and 2D artists.</p>
+                        <p>
+                            <ul>
+                                <li>Combine 2D with 3D right in the viewport</li>
+                                <li>Full Animation Support with Onion Skinning</li>
+                                <li>Layers & Colors for Stroke and Fil</li>
+                                <li>Sculpt brush strokes & Parent to 3D objects</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                    <!--2 блок-->
+                    <div class="contain-features-page-block">
+                        <div class="contain-features-page-block-header">
+                            <h2>VFX</h2>
+                        </div>
+                        <div class="contain-features-page-block-content">
+                            <p>Blender comes with a fully fledged built-in compositor. This allows you to post-produce your renders without leaving Blender.</p>
+                            <p>
+                                The compositor comes with:
+                                <ul>
+                                    <li>Impressive library of nodes for creating camera fx, color grading, vignettes and much more</li>
+                                    <li>Render-layer support</li>
+                                    <li>Full compositing with images and video files</li>
+                                    <li>Ability to render to multiLayer OpenEXR files</li>
+                                    <li>Multi-threaded</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+            <!--4 строка-->
+                <!--1 блок-->
+                <div class="contain-features-page-block">
+                    <div class="contain-features-page-block-header">
+                        <h2>Симуляция</h2>
+                    </div>
+                    <div class="contain-features-page-block-content">
+                        <p>Whether you need a crumbling building, rain, fire, smoke, fluid, cloth or full on destruction, Blender delivers great looking results.</p>
+                        <p>
+                            <ul>
+                                <li>Smoke & Fire</li>
+                                <li>Fluids</li>
+                                <li>Hair</li>
+                                <li>Cloth</li>
+                                <li>Rigid Bodies</li>
+                                <li>articles</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                    <!--2 блок-->
+                    <div class="contain-features-page-block">
+                        <div class="contain-features-page-block-header">
+                            <h2>Видеоредактор</h2>
+                        </div>
+                        <div class="contain-features-page-block-content">
+                            <p>Blender comes with a built-in video sequence editor allows you to perform basic actions like video cuts and splicing, as well as more complex tasks like video masking or color grading.</p>
+                            <p>
+                                The Video Editor includes:
+                                <ul>
+                                    <li>Live preview, luma waveform, chroma vectorscope</li>
+                                    <li>Audio mixing, syncing, scrubbing and waveform visualization.</li>
+                                    <li>Up to 32 slots for adding video, images, audio and effects.</li>
+                                    <li>Speed control, adjustment layers, transitions, keyframes, filters</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+            <!--5 строка-->
+                <!--1 блок-->
+                <div class="contain-features-page-block">
+                    <div class="contain-features-page-block-header">
+                        <h2>Сценарии</h2>
+                    </div>
+                    <div class="contain-features-page-block-content">
+                        <p>With a large community of enthusiasts and developers, Blender comes loaded with a vast array of extensions that you can turn on or off easily.</p>
+                        <p>
+                            Some existing extensions include:
+                            <ul>
+                                <li>Generators for trees, terrain, ivy and clouds.</li>
+                                <li>Fracture Objects.</li>
+                                <li>3D Printing Toolbox.</li>
+                                <li>Rigify meta-rigging system.</li>
+                                <li>Import and Export format support</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <div style="clear: both;"></div>
+
+        <footer>
+            <div>
+                <ul class="menu-footer">
+                    <li><a href="./features.html">Возможности</a></li>
+                    <li><a href="./lessons.html">Уроки</a></li>
+                    <li><a href="./about.html">О нас</a></li>
+                    <li><a href="./arts.html">Галерея</a></li>
+                    <li><a href="./support.html">Поддержка</a></li>
+                    <li><a href="./download.html">Скачать</a></li> 
+                </ul>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="copyright">
+                <div>
                     <p>
-                        <a href="" class="contain-news-post-block-link">READ MORE</a>
+                        Artistic freedom starts with Blender  The Free and Open Source 3D Creation Suite
                     </p>
                 </div>
-            </td>
-            <!--3 пост-->
-            <td>
-                <div class="contain-news-post-block">
-                    <div class="contain-news-post-block-img"></div>
-                    <h3>Blender 3.0, a new era for content creation</h3>
-                    <p>Blender 3.0 has been released! With this release, Blender marks the beginning of a new era for content creation. </p>
-                    <p>
-                        <a href="" class="contain-news-post-block-link">READ MORE</a>
-                    </p>
-                </div>
-            </td>
-            <!--4 пост-->
-            <td>
-                <div class="contain-news-post-block">
-                    <div class="contain-news-post-block-img"></div>
-                    <h3>New Patron member: Decentraland</h3>
-                    <p>Decentraland joins the Blender Development Fund for a period of two years, as Patron Member.</p>
-                    <p>
-                        <a href="" class="contain-news-post-block-link">READ MORE</a>
-                    </p>
-                </div>
-            </td>
-        </table>
-
-
-
-        <table border="0">
-            <tr>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-                <td>                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p></td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-                <td>
-                    <h3>Рендеринг</h3>
-                    <p>Create jaw-dropping renders thanks to Cycles, high-end production path tracer.</p>
-                    <p>
-                        <a href="" class="contain-features-cell-link">READ MORE</a>
-                    </p>
-                </td>
-            </tr>
-        </table>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

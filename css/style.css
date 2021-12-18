@@ -1,27 +1,27 @@
 @font-face {
 	font-family: "Montserrat";
 	font-style: normal;
-	src: url(/fonts/Montserrat-Bold.ttf);
+	src: url(../fonts/Montserrat-Bold.ttf);
 }
 @font-face {
 	font-family: "Exo2-Bold";
 	font-style: normal;
-	src: url(/fonts/Exo2-Bold.ttf);
+	src: url(../fonts/Exo2-Bold.ttf);
 }
 @font-face {
 	font-family: "Exo2-Regular";
 	font-style: normal;
-	src: url(/fonts/Exo2-Regular.ttf);
+	src: url(../fonts/Exo2-Regular.ttf);
 }
 @font-face {
 	font-family: "Roboto-Bold";
 	font-style: normal;
-	src: url(/fonts/Roboto-Bold.ttf);
+	src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
 	font-family: "Roboto-Regular";
 	font-style: normal;
-	src: url(/fonts/Roboto-Regular.ttf);
+	src: url(../fonts/Roboto-Regular.ttf);
 }
 body {
 	margin: 0;
@@ -32,9 +32,9 @@ a {
 }
 .main-body {
 	max-width: 1440px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: "Roboto-Regular";
-	padding: 0 35px 0 35px;
 }
 header {
 	height: 60px;
@@ -45,6 +45,7 @@ header .logo img{
 	height: 54px;
 	float: left;
 	margin:13px 515px 13px 0;
+	
 }
 nav .menu {
 	list-style: none;
@@ -93,7 +94,7 @@ nav .menu li:last-child {
 }
 .contain-news-post-block {
 	width: 290px;
-	height: 420px;
+	height: 380px;
 	float: left;
 	background: #fcfcfc;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
@@ -107,9 +108,13 @@ nav .menu li:last-child {
 .contain-news-post-block:nth-last-child(-n+1) {
 	margin-right: 0px;
 }
+.contain-news-post-block-img::before {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
 .contain-news-post-block-img img {
 	width: 290px;
 	border-radius: 20px 20px 0 0;
+	
 }
 .contain-news-post-block h3 {
 	font-family: "Roboto-Regular";
@@ -163,7 +168,7 @@ nav .menu li:last-child {
 
 .contain-features-cell {
 	width: 404px;
-	height: 467px;
+	height: 420px;
 	float: left;
 	background: #FFFFFF;
 	border-radius: 20px;
@@ -261,7 +266,7 @@ nav .menu li:last-child {
 	width: 1370px;
 	height: 256px;
 	background: #1C1C1C;
-	background-image:linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/img/bg_download.png);
+	background-image:linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://include-data-kit.github.io/eduex.github.io/img/bg_download.png);
   	background-repeat: no-repeat;
   	background-size: cover;
 	color: #46EBC2;
@@ -310,9 +315,7 @@ footer {
 	border-radius: 20px 20px 0 0;
 	padding-top: 20px;
 }
-footer div {
-	
-}
+
 footer div li {
 	display: inline;
 	margin-right: 23px;
@@ -340,4 +343,315 @@ footer .copyright {
 	font-family: "Exo2-Regular";
 	font-size: 14px;
 	color: #fff;
+}
+
+.contain-features-page {
+	display: inline;
+	
+}
+
+.contain-features-page-block {
+	margin-top: 60px;
+	width: 650px;
+	height: 417px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	float: left;
+	margin-right: 70px;
+
+} 
+.contain-features-page-block-header {
+	width: 650px;
+	height: 100px;
+	background: #1C1C1C;
+	border-radius: 20px 20px 0 0;
+	margin: 0;
+	padding: 0;
+}
+.contain-features-page-block-header h2 {
+	height: 70px;
+	font-family: "Roboto-Bold";
+	font-size: 60px;
+	color: #46EBC2;
+	padding-top: 15px;
+	margin: 0 0 15px 22px;
+}
+.contain-features-page-block-content {
+	width: 610px;
+	color: #000000;
+	font-family: "Exo2-Regular";
+	font-size: 20px;
+	margin: 40px 20px 0 20px;
+}
+.contain-features-page :nth-child(9) {
+	width: 650px;
+	margin-left: 350px;
+	
+}
+.contain-about {
+display: inline;
+}
+.contain-about-block {
+	margin: 60px 0 0 0;
+	width: 1370px;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+.contain-about-block-header {
+	width: 1370px;
+	height: 100px;
+	background: #1C1C1C;
+	border-radius: 20px 20px 0 0;
+	margin: 0;
+	padding: 0;
+}
+.contain-about-block-header h2 {
+	height: 70px;
+	font-family: "Roboto-Bold";
+	font-size: 60px;
+	color: #46EBC2;
+	padding-top: 15px;
+	margin: 0 0 15px 22px;
+}
+.contain-about-block-content {
+	width: 1260px;
+	color: #000000;
+	text-indent: 30px;
+	font-family: "Exo2-Regular";
+	text-indent: 30px;
+	font-size: 20px;
+	margin: 40px 20px 0 40px;
+}
+
+/*Страница уроков*/
+
+.contain-lesson-header {
+	font-family: "Roboto-Bold";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 75px;
+	color: #1C1C1C;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.contain-lesson-post {
+	display: inline-block;
+	justify-content: space-around;
+}
+.contain-lesson-post a:visited {
+	color: #1C1C1C;
+}
+.contain-lesson-post-block {
+	width: 290px;
+	height: 260px;
+	float: left;
+	background: #fcfcfc;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin-right: 70px;
+	position:relative;
+}
+.contain-lesson-post-block:hover {
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.contain-lesson-post:last-child {
+	margin-right: 0px;
+}
+.contain-lesson-post-block-img::before {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5));
+}
+
+.contain-lesson-post-block-img img{
+	width: 290px;
+	border-radius: 20px 20px 0 0;
+}
+.contain-lesson-post-block h3 {
+	font-family: "Roboto-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+	margin-left: 17px;
+	margin-right: 17px;
+}
+
+.contain-lesson-post-block p {
+	font-family: "Exo2-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	margin-left: 17px;
+	margin-right: 17px;
+}
+
+.containt-support-row {
+	display: inline-block;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.contain-support-cell {
+	width: 404px;
+	height: 360px;
+	float: left;
+	background: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	margin-right: 79px;
+	position:relative;
+}
+.contain-support-cell:last-child {
+	margin-right: 0px;
+}
+.contain-support-cell:hover {
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.contain-support-cell-img img {
+	width: 404px;
+	height: 240px;
+	border-radius: 20px 20px 0 0;
+}
+
+.contain-support-cell h3 {
+	font-family: "Roboto-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 26px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.contain-support-cell p {
+	font-family: "Exo2-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.contain-support-cell a {
+	
+	font-family: "Exo2-Regular";
+	font-style: normal;
+	border-bottom: 1px solid #1C1C1C;
+	font-size: 18px;
+	line-height: 24px;
+	color: #1C1C1C;
+	text-decoration: none;
+
+}
+.contain-art-cell {
+	width: 404px;
+	height: 240px;
+	float: left;
+	background: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	margin-right: 79px;
+	position:relative;
+}
+.contain-art-cell:last-child {
+	margin-right: 0px;
+}
+.contain-art-cell:hover {
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+.contain-art-cell-img img {
+	width: 404px;
+	height: 240px;
+	border-radius: 20px;
+}
+
+.containt-download-row {
+	display: inline-block;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.contain-download-cell {
+	text-align: center;
+	width: 404px;
+	height: 360px;
+	float: left;
+	background: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	margin-right: 79px;
+	position:relative;
+	background: url(../img/download/windows.png) no-repeat center;
+	background-position: center;
+}
+.contain-download-cell:nth-of-type(2) {
+	background: url(../img/download/linux.png) no-repeat center;
+}
+.contain-download-cell:nth-of-type(3) {
+	background: url(../img/download/apple.png) no-repeat center;
+}
+
+.contain-download-cell:last-child {
+	margin-right: 0px;
+}
+.contain-download-cell:hover {
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.contain-support-cell-img img {
+	width: 404px;
+	height: 240px;
+	border-radius: 20px 20px 0 0;
+}
+
+.contain-download-cell h3 {
+	font-family: "Roboto-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 26px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.contain-download-cell p {
+	font-family: "Exo2-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.contain-download-cell a {
+	
+	font-family: "Exo2-Regular";
+	font-style: normal;
+	border-bottom: 1px solid #1C1C1C;
+	font-size: 18px;
+	line-height: 24px;
+	color: #1C1C1C;
+	text-decoration: none;
+
+}
+button {
+	position: relative;;
+	top: 10%;
+	color: #1C1C1C;
+	background:none;
+	border: 2px solid #E97200;
+	text-align: center;
+	cursor: pointer;
+	font-size: 24px;
+	padding: 15px 25px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+button:hover {
+	background: #E97200;
+	box-shadow: 0px 2px 2px rgb(219, 117, 0);
 }
